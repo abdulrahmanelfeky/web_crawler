@@ -27,4 +27,4 @@ def file_to_set(direction):
 def set_to_file(direction,data):
     with open(direction,'w') as f:
         for val in data:
-            f.writelines(val)
+            f.writelines(val+'\n')
